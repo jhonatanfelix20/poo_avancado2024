@@ -25,6 +25,61 @@ console.log(v1.lenght) //11
 v1[99] = true
 console.log(v1.lenght) //100
 
+// funcçoes
+
+const hello = () => console.log("Hello")
+hello()
+
+const dobro = (valor) => valor * 2
+
+let triplo = (valor) => {
+    return valor * 3
+}
+
+const ehPar = n => n % 2 === 0
+console.log(ehPar(10))
+
+const f = () => {} // função reduzida
+const umArgumento = n  => {
+    console.log(n)
+}
+
+const soUmaLinha = () => console.log("oi")
+
+//função anonima
+//const dobro = function(n){
+//    return 2 * n
+//}
+//const result = dobro(6)
+//console.log(result)
+
+// valor padrão para um paramêtro
+
+//const triplo = function(n = 5 ){
+//    return 3 * n
+//}
+//console.log(triplo())
+//console.log(triplo(10)) //retribuição
+
+
+// function soma(a,b){
+//    return a + b
+//}
+// const resultado = soma(2,3)
+// console.log(resultado)
+
+//void m(){} se fosse Java
+
+ // JavaScript
+//function hello(){
+//    console.log('oi')
+//}
+//hello()
+//function hello(nome){
+//    console.log('oi, ' + nome)
+//}
+//hello('Jhonatan')
+
 
 
 
@@ -76,6 +131,8 @@ console.log(sobrenome)
 //Me chamo Rodrigo. Meu sobrenome é Bossini
 console.log('Me chamo ' + nome + '. Meu sobrenome é ' + sobrenome + '.')
 console.log('Me chamo ${nome}. Meu Sobrenome é ${sobrenome}')
+
+
 
 
 
